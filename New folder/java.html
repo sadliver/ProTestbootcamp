@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+      function fullName(){
+          let name=document.forms1.txt1.value;
+          let lastname=document.forms1.txt2.value;
+          alert("สวัสดี คุณ:"+name+ lastname);
+      }
+    </script>
+</head>
+<body>
+   <form name="forms1">
+    ชื่อ<input type="text" value="" name="txt1">
+    นามสกุล<input type="text" value="" name="txt2">
+    <input type="button" value="เสร็จสิ้น" onclick="fullName()">
+   </form>
+</body>
+</html>
